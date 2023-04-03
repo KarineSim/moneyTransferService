@@ -1,0 +1,7 @@
+version: '7'
+
+services:
+  myapp:
+    build: ./
+    ports:
+      - '5500:5500'
